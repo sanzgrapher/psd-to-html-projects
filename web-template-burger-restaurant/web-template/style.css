@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: red;
+}
+.uni-padding{
+    padding: 0 8%;
+
+}
+/* ////////////////////////////////////////// navbar ////////////////////////////////////////// */
+
+header {
+    margin-top: 30px;
+    text-align: center;
+    overflow: auto;
+}
+
+header .logo {
+    float: left;
+}
+
+.logo img {
+    width: 50px;
+   
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+
+
+}
+
+header nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 35px;
+    line-height: 2;
+
+}
+/* main */
+
+/* our chef */
+.ourchefsec{
+    background-color: #f6eedf;
+text-align: center;
+}
+.ourchefsec h2{
+    color: #f64b3c;
+    font-size: 40px;
+}
+.ourchefsec p{
+    color: #f64b3c;
+    font-size: 20px;
+    margin: auto;
+   
+   padding-bottom: 30px; 
+   
+    width: 75%;
+
+}
+.ourchefsec .row{
+    display: flex;
+    
+}
+.ourchefsec .row div {
+   text-align: center;
+   width: 33.33%;
+}
+.row div img{
+    width: 100px;
+    padding-bottom: 20px;
+    
+}
+.row div h3{
+    color: #f64b3c;
+    font-size: 25px;
+}
+.row div h3 p{
+    font-size: 15px;
+}
+
+/* footer */
+footer{
+    background-color: #222222;
+   
+    overflow: auto;
+  
+
+
+}
+footer .space{
+    padding: 180px 0;
+display: flex;
+}
+footer h3{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom:20px;
+}
+
+
+footer nav ul li{
+    color: #fff;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 10px;
+   
+}
+.div50{
+    width:50%;
+    text-align: left;
+    margin-right: 50px;
+    
+}
+.div50 p{
+    color: #fff;
+    font-size: 15px;
+    width: 65%;
+}
+.div16{
+    width: 16.66%;
+}
+
